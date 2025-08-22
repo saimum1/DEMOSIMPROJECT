@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Inter", system-ui, sans-serif;
+    }
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge */
+  body {
+    -ms-overflow-style: none;
+  }
+  
+  /* Hide scrollbar for Firefox */
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+
