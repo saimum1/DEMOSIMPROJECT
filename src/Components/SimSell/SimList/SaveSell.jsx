@@ -174,7 +174,6 @@ console.log("daaaaaaaaaaa", data)
                                 <div style={{transition:'900ms'}}>
                                 <img src={statusx === 0?activexiconwhite:
                                     statusx === 1? activexiconwhite:statusx === 2? activexicongreen:status >2? activexfullgreen:activexfullgreen} style={{width:"55px" ,height:"55px",transition:'all 900ms'}}/>
-
                                 </div>
                             
                                 <div style={{height:'2px',backgroundColor:statusx === 0? '#404040':statusx === 1?   '#404040':statusx === 2?   '#404040':'#29CC79',width:'100%',alignSelf:'center',transition:'all 900ms'}}></div>
